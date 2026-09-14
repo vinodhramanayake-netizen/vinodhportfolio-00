@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none">
+  <!-- Figma colored circles/semicircles with AI sparkle overlay -->
+  <rect width="48" height="48" rx="10" fill="#0D0D0D"/>
+  <g transform="translate(8, 6) scale(0.68)">
+    <path d="M13 0H26V13H13C6.37 13 1 7.63 1 1C1 0.45 1.45 0 2 0H13Z" fill="#F24E1E"/>
+    <path d="M26 0H39C45.63 0 51 5.37 51 12C51 18.63 45.63 24 39 24H26V0Z" fill="#FF7262"/>
+    <path d="M13 13H26V26H13C6.37 26 1 20.63 1 14C1 13.45 1.45 13 2 13H13Z" fill="#A259FF"/>
+    <path d="M26 24C32.63 24 38 29.37 38 36C38 42.63 32.63 48 26 48C19.37 48 14 42.63 14 36C14 29.37 19.37 24 26 24Z" fill="#1ABCFE"/>
+    <path d="M13 26H26V39C26 45.63 20.63 51 14 51C7.37 51 2 45.63 2 39C2 32.37 7.37 27 14 27L13 26Z" fill="#0ACF83"/>
+  </g>
+  <!-- Sparkles -->
+  <path d="M37 9L38.5 13L42.5 14.5L38.5 16L37 20L35.5 16L31.5 14.5L35.5 13L37 9Z" fill="#A259FF"/>
+</svg>

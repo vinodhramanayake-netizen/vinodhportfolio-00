@@ -1,0 +1,78 @@
+"$Sreact.fragment"
+6:I[68027,["/_next/static/chunks/05c8kg8sj4jl5.js?dpl=dpl_9zjmim84747VmasMgP56UBazuqUw","/_next/static/chunks/03y93_txr~m5q.js?dpl=dpl_9zjmim84747VmasMgP56UBazuqUw","/_next/static/chunks/0d3shmwh5_nmn.js?dpl=dpl_9zjmim84747VmasMgP56UBazuqUw","/_next/static/chunks/0~2j-5cr994j~.js?dpl=dpl_9zjmim84747VmasMgP56UBazuqUw"],"default",1]
+:HL["/_next/static/chunks/0wcn792yyom-l.css?dpl=dpl_9zjmim84747VmasMgP56UBazuqUw","style"]
+:HC["/",""]
+2:T89a,
+                            (function() {
+                                const silence = () => {
+                                    window.console.log = window.console.info = window.console.error = window.console.warn = () => {};
+                                };
+                                silence();
+                                window.addEventListener('load', silence);
+
+
+
+                                if (window.history.scrollRestoration) {
+                                    window.history.scrollRestoration = 'manual';
+                                }
+
+                                const hardTop = () => {
+                                    if (document.documentElement) document.documentElement.scrollTop = 0;
+                                    if (document.body) document.body.scrollTop = 0;
+                                    window.scrollTo({ top: 0, left: 0, behavior: 'instant' });
+                                };
+
+                                if (document.readyState === 'loading') {
+                                    document.addEventListener('DOMContentLoaded', hardTop);
+                                } else {
+                                    hardTop();
+                                }
+
+                                window.addEventListener('pageshow', function(e) {
+                                    hardTop();
+                                    if (e.persisted) {
+                                        requestAnimationFrame(hardTop);
+                                        requestAnimationFrame(function() { requestAnimationFrame(hardTop); });
+                                    }
+                                });
+
+                                window.addEventListener('popstate', function() {
+                                    hardTop();
+                                    requestAnimationFrame(hardTop);
+                                });
+
+                                window.addEventListener('load', function() {
+                                    hardTop();
+                                    requestAnimationFrame(hardTop);
+                                });
+                            })();
+                        
+{"P":null,"c":["",""],"q":"","i":false,"f":[[["",{"children":["__PAGE__",{}]},"$undefined","$undefined",16],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/0wcn792yyom-l.css?dpl=dpl_9zjmim84747VmasMgP56UBazuqUw","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/05c8kg8sj4jl5.js?dpl=dpl_9zjmim84747VmasMgP56UBazuqUw","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/03y93_txr~m5q.js?dpl=dpl_9zjmim84747VmasMgP56UBazuqUw","async":true,"nonce":"$undefined"}],["$","script","script-2",{"src":"/_next/static/chunks/0d3shmwh5_nmn.js?dpl=dpl_9zjmim84747VmasMgP56UBazuqUw","async":true,"nonce":"$undefined"}],["$","script","script-3",{"src":"/_next/static/chunks/0~2j-5cr994j~.js?dpl=dpl_9zjmim84747VmasMgP56UBazuqUw","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":[["$","head",null,{"children":[["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"Organization\",\"@id\":\"https://produx.design/#organization\",\"name\":\"PRODUX\",\"url\":\"https://produx.design\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https://produx.design/SEO/logo.png\",\"width\":512,\"height\":512},\"description\":\"Strategy-led brand identity and web design studio.\",\"sameAs\":[\"https://twitter.com/produx_design\"],\"contactPoint\":{\"@type\":\"ContactPoint\",\"contactType\":\"customer service\",\"email\":\"hello@produx.design\"}},{\"@type\":\"WebSite\",\"@id\":\"https://produx.design/#website\",\"url\":\"https://produx.design\",\"name\":\"PRODUX\",\"publisher\":{\"@id\":\"https://produx.design/#organization\"}}]}"}}],["$","script",null,{"dangerouslySetInnerHTML":{"__html":"$2"}}]]}],"$L3"]}]]}],{"children":["$L4",{},null,false,null]},null,false,null],"$L5",false]],"m":"$undefined","G":["$6",["$L7"]],"S":true,"h":null,"s":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined"}
+
+I[41889,["/_next/static/chunks/05c8kg8sj4jl5.js?dpl=dpl_9zjmim84747VmasMgP56UBazuqUw","/_next/static/chunks/03y93_txr~m5q.js?dpl=dpl_9zjmim84747VmasMgP56UBazuqUw","/_next/static/chunks/0d3shmwh5_nmn.js?dpl=dpl_9zjmim84747VmasMgP56UBazuqUw","/_next/static/chunks/0~2j-5cr994j~.js?dpl=dpl_9zjmim84747VmasMgP56UBazuqUw"],"default"]
+9:I[8694,["/_next/static/chunks/05c8kg8sj4jl5.js?dpl=dpl_9zjmim84747VmasMgP56UBazuqUw","/_next/static/chunks/03y93_txr~m5q.js?dpl=dpl_9zjmim84747VmasMgP56UBazuqUw","/_next/static/chunks/0d3shmwh5_nmn.js?dpl=dpl_9zjmim84747VmasMgP56UBazuqUw","/_next/static/chunks/0~2j-5cr994j~.js?dpl=dpl_9zjmim84747VmasMgP56UBazuqUw"],"default"]
+a:I[76283,["/_next/static/chunks/05c8kg8sj4jl5.js?dpl=dpl_9zjmim84747VmasMgP56UBazuqUw","/_next/static/chunks/03y93_txr~m5q.js?dpl=dpl_9zjmim84747VmasMgP56UBazuqUw","/_next/static/chunks/0d3shmwh5_nmn.js?dpl=dpl_9zjmim84747VmasMgP56UBazuqUw","/_next/static/chunks/0~2j-5cr994j~.js?dpl=dpl_9zjmim84747VmasMgP56UBazuqUw"],"PageTransitionProvider"]
+b:I[60139,["/_next/static/chunks/05c8kg8sj4jl5.js?dpl=dpl_9zjmim84747VmasMgP56UBazuqUw","/_next/static/chunks/03y93_txr~m5q.js?dpl=dpl_9zjmim84747VmasMgP56UBazuqUw","/_next/static/chunks/0d3shmwh5_nmn.js?dpl=dpl_9zjmim84747VmasMgP56UBazuqUw","/_next/static/chunks/0~2j-5cr994j~.js?dpl=dpl_9zjmim84747VmasMgP56UBazuqUw"],"default"]
+c:I[12302,["/_next/static/chunks/05c8kg8sj4jl5.js?dpl=dpl_9zjmim84747VmasMgP56UBazuqUw","/_next/static/chunks/03y93_txr~m5q.js?dpl=dpl_9zjmim84747VmasMgP56UBazuqUw","/_next/static/chunks/0d3shmwh5_nmn.js?dpl=dpl_9zjmim84747VmasMgP56UBazuqUw","/_next/static/chunks/0~2j-5cr994j~.js?dpl=dpl_9zjmim84747VmasMgP56UBazuqUw"],"default"]
+d:I[39756,["/_next/static/chunks/05c8kg8sj4jl5.js?dpl=dpl_9zjmim84747VmasMgP56UBazuqUw","/_next/static/chunks/03y93_txr~m5q.js?dpl=dpl_9zjmim84747VmasMgP56UBazuqUw","/_next/static/chunks/0d3shmwh5_nmn.js?dpl=dpl_9zjmim84747VmasMgP56UBazuqUw","/_next/static/chunks/0~2j-5cr994j~.js?dpl=dpl_9zjmim84747VmasMgP56UBazuqUw"],"default"]
+e:I[37457,["/_next/static/chunks/05c8kg8sj4jl5.js?dpl=dpl_9zjmim84747VmasMgP56UBazuqUw","/_next/static/chunks/03y93_txr~m5q.js?dpl=dpl_9zjmim84747VmasMgP56UBazuqUw","/_next/static/chunks/0d3shmwh5_nmn.js?dpl=dpl_9zjmim84747VmasMgP56UBazuqUw","/_next/static/chunks/0~2j-5cr994j~.js?dpl=dpl_9zjmim84747VmasMgP56UBazuqUw"],"default"]
+f:I[74164,["/_next/static/chunks/05c8kg8sj4jl5.js?dpl=dpl_9zjmim84747VmasMgP56UBazuqUw","/_next/static/chunks/03y93_txr~m5q.js?dpl=dpl_9zjmim84747VmasMgP56UBazuqUw","/_next/static/chunks/0d3shmwh5_nmn.js?dpl=dpl_9zjmim84747VmasMgP56UBazuqUw","/_next/static/chunks/0~2j-5cr994j~.js?dpl=dpl_9zjmim84747VmasMgP56UBazuqUw","/_next/static/chunks/0swtkow.lgrz~.js?dpl=dpl_9zjmim84747VmasMgP56UBazuqUw","/_next/static/chunks/0kxkcls0.y_e7.js?dpl=dpl_9zjmim84747VmasMgP56UBazuqUw"],"default"]
+10:I[8671,["/_next/static/chunks/05c8kg8sj4jl5.js?dpl=dpl_9zjmim84747VmasMgP56UBazuqUw","/_next/static/chunks/03y93_txr~m5q.js?dpl=dpl_9zjmim84747VmasMgP56UBazuqUw","/_next/static/chunks/0d3shmwh5_nmn.js?dpl=dpl_9zjmim84747VmasMgP56UBazuqUw","/_next/static/chunks/0~2j-5cr994j~.js?dpl=dpl_9zjmim84747VmasMgP56UBazuqUw","/_next/static/chunks/0m9vh1vcfsnp5.js?dpl=dpl_9zjmim84747VmasMgP56UBazuqUw","/_next/static/chunks/0y3-82-~kdn8h.js?dpl=dpl_9zjmim84747VmasMgP56UBazuqUw","/_next/static/chunks/170nwjurwpuqk.js?dpl=dpl_9zjmim84747VmasMgP56UBazuqUw","/_next/static/chunks/0e2dxdfs4-avt.js?dpl=dpl_9zjmim84747VmasMgP56UBazuqUw","/_next/static/chunks/17_z7p.4dgi7h.js?dpl=dpl_9zjmim84747VmasMgP56UBazuqUw","/_next/static/chunks/0~m4xxjepii0t.js?dpl=dpl_9zjmim84747VmasMgP56UBazuqUw","/_next/static/chunks/0jwuwbsy8x5gc.js?dpl=dpl_9zjmim84747VmasMgP56UBazuqUw"],"default"]
+11:I[97367,["/_next/static/chunks/05c8kg8sj4jl5.js?dpl=dpl_9zjmim84747VmasMgP56UBazuqUw","/_next/static/chunks/03y93_txr~m5q.js?dpl=dpl_9zjmim84747VmasMgP56UBazuqUw","/_next/static/chunks/0d3shmwh5_nmn.js?dpl=dpl_9zjmim84747VmasMgP56UBazuqUw","/_next/static/chunks/0~2j-5cr994j~.js?dpl=dpl_9zjmim84747VmasMgP56UBazuqUw"],"OutletBoundary"]
+12:"$Sreact.suspense"
+14:I[97367,["/_next/static/chunks/05c8kg8sj4jl5.j
+dpl=dpl_9zjmim84747VmasMgP56UBazuqUw","/_next/static/chunks/03y93_txr~m5q.js?dpl=dpl_9zjmim84747VmasMgP56UBazuqUw","/_next/static/chunks/0d3shmwh5_nmn.js?dpl=dpl_9zjmim84747VmasMgP56UBazuqUw","/_next/static/chunks/0~2j-5cr994j~.js?dpl=dpl_9zjmim84747VmasMgP56UBazuqUw"],"ViewportBoundary"]
+16:I[97367,["/_next/static/chunks/05c8kg8sj4jl5.js?dpl=dpl_9zjmim84747VmasMgP56UBazuqUw","/_next/static/chunks/03y93_txr~m5q.js?dpl=dpl_9zjmim84747VmasMgP56UBazuqUw","/_next/static/chunks/0d3shmwh5_nmn.js?dpl=dpl_9zjmim84747VmasMgP56UBazuqUw","/_next/static/chunks/0~2j-5cr994j~.js?dpl=dpl_9zjmim84747VmasMgP56UBazuqUw"],"MetadataBoundary"]
+3:["$","body",null,{"className":"bg-outer-space overflow-x-hidden","cz-shortcut-listen":"true","children":[["$","$L8",null,{}],["$","$L9",null,{}],["$","$La",null,{"children":[["$","$Lb",null,{}],["$","$Lc",null,{}],["$","div",null,{"id":"page-content","children":["$","$Ld",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$Le",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","$Lf",null,{}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]]}]]}]
+
+["$","$1","c",{"children":[[["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"WebPage\",\"@id\":\"https://produx.design/#webpage\",\"url\":\"https://produx.design\",\"name\":\"PRODUX | Design that Speaks\",\"description\":\"Strategy-led brand identity and web design studio.\",\"isPartOf\":{\"@id\":\"https://produx.design/#website\"},\"about\":{\"@id\":\"https://produx.design/#organization\"}}"}}],["$","$L10",null,{}]],[["$","script","script-0",{"src":"/_next/static/chunks/0m9vh1vcfsnp5.js?dpl=dpl_9zjmim84747VmasMgP56UBazuqUw","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/0y3-82-~kdn8h.js?dpl=dpl_9zjmim84747VmasMgP56UBazuqUw","async":true,"nonce":"$undefined"}],["$","script","script-2",{"src":"/_next/static/chunks/170nwjurwpuqk.js?dpl=dpl_9zjmim84747VmasMgP56UBazuqUw","async":true,"nonce":"$undefined"}],["$","script","script-3",{"src":"/_next/static/chunks/0e2dxdfs4-avt.js?dpl=dpl_9zjmim84747VmasMgP56UBazuqUw","async":true,"nonce":"$undefined"}],["$","script","script-4",{"src":"/_next/static/chunks/17_z7p.4dgi7h.js?dpl=dpl_9zjmim84747VmasMgP56UBazuqUw","async":true,"nonce":"$undefined"}],["$","script","script-5",{"src":"/_next/static/chunks/0~m4xxjepii0t.js?dpl=dpl_9zjmim84747VmasMgP56UBazuqUw","async":true,"nonce":"$undefined"}],["$","script","script-6",{"src":"/_next/static/chunks/0jwuwbsy8x5gc.js?dpl=dpl_9zjmim84747VmasMgP56UBazuqUw","async":true,"nonce":"$undefined"}]],["$","$L11",null,{"children":["$","$12",null,{"name":"Next.MetadataOutlet","children":"$@13"}]}]]}]
+
+["$","$1","h",{"children":[null,["$","$L14",null,{"children":"$L15"}],["$","div",null,{"hidden":true,"children":["$","$L16",null,{"children":["$","$12",null,{"name":"Next.Metadata","children":"$L17"}]}]}],null]}]
+7:["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/0wcn792yyom-l.css?dpl=dpl_9zjmim84747VmasMgP56UBazuqUw","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]
+
+:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+
+:I[27201,["/_next/static/chunks/05c8kg8sj4jl5.js?dpl=dpl_9zjmim84747VmasMgP56UBazuqUw","/_next/static/chunks/03y93_txr~m5q.js?dpl=dpl_9zjmim84747VmasMgP56UBazuqUw","/_next/static/chunks/0d3shmwh5_nmn.js?dpl=dpl_9zjmim84747VmasMgP56UBazuqUw","/_next/static/chunks/0~2j-5cr994j~.js?dpl=dpl_9zjmim84747VmasMgP56UBazuqUw"],"IconMark"]
+13:null
+
+:[["$","title","0",{"children":"PRODUX | Design that Speaks"}],["$","meta","1",{"name":"description","content":"Strategy-led brand identity and web design studio. We build distinctive brands for startups, SaaS, fintech, and AI companies."}],["$","meta","2",{"name":"keywords","content":"brand identity,web design,design studio,startup branding,SaaS design,fintech design,AI company branding,logo design,UI/UX design,produx"}],["$","meta","3",{"name":"robots","content":"index, follow"}],["$","meta","4",{"name":"googlebot","content":"index, follow, max-image-preview:large, max-snippet:-1"}],["$","link","5",{"rel":"canonical","href":"https://produx.design"}],["$","meta","6",{"property":"og:title","content":"PRODUX | Design that Speaks"}],["$","meta","7",{"property":"og:description","content":"Strategy-led brand identity and web design studio. We build distinctive brands for startups, SaaS, fintech, and AI companies."}],["$","meta","8",{"property":"og:url","content":"https://produx.design"}],["$","meta","9",{"property":"og:image","content":"https://produx.design/SEO/og-image.jpeg"}],["$","meta","10",{"property":"og:image:width","content":"1200"}],["$","meta","11",{"property":"og:image:height","content":"630"}],["$","meta","12",{"property":"og:image:alt","content":"PRODUX — Design that Speaks"}],["$","meta","13",{"property":"og:type","content":"website"}],["$","meta","14",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","15",{"name":"twitter:creator","content":"@produx_design"}],["$","meta","16",{"name":"twitter:title","content":"PRODUX | Design that Speaks"}],["$","meta","17",{"name":"twitter:description","content":"Strategy-led brand identity and web design studio. We build distinctive brands for startups, SaaS, fintech, and AI companies."}],["$","meta","18",{"name":"twitter:image","content":"https://produx.design/SEO/og-image.jpeg"}],["$","link","19",{"rel":"icon","href":"/SEO/light-mode-favicon.svg","media":"(prefers-color-scheme: light)"}],["$","link","20",{"rel":"icon","href":"/SEO/dark-mode-favicon.svg","media":"(prefers-color-scheme: dark)"}],["$","link","21",{"rel":"apple-touch-icon","href":"/SEO/apple-touch-icon.png"}],["$","$L18","22",{}]]
